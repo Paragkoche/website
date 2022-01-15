@@ -1,0 +1,41 @@
+@media only screen and (max-width:600px) {
+    .class-main-body{
+        @apply ml-[100px] !important
+    }
+    .class-main-img-con{
+        @apply w-[220px] h-[120px] !important
+    }
+    .class-main-img-con-2{
+        @apply h-[120px] !important
+    }
+    .all-f{
+        @apply flex-col w-full
+    }
+
+    .all-f div{
+        @apply w-full mx-0 px-5 !important
+    }
+    .all-f div img{
+        @apply rounded-md !important
+    }
+}
+@media only screen and (max-width:320px) {
+    .class-main-body{
+        /* width: !important; */
+        @apply ml-0 w-full !important
+         
+    }
+    .class-main-img-con{
+        @apply w-[220px] h-[120px]  !important
+    }
+    .class-main-img-con-2{
+        @apply h-[120px] !important
+    }
+    .all-f{
+        @apply flex-col 
+        
+    }
+    .all-f div{
+        @apply w-full mx-0 !important
+    }
+}

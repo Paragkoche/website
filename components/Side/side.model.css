@@ -1,0 +1,40 @@
+@media only screen and (max-width:600px) {
+    .class-side{
+        @apply w-[100px] !important
+    }
+    .class-side-cont{
+        @apply p-[10px] !important
+    }
+    .class-side-heading{
+        @apply text-[10px] !important
+    }
+    .class-side-ul{
+        @apply w-full !important
+    }
+    .class-side-li{
+        @apply m-auto my-2 !important
+    }
+    .class-side-p{
+        @apply hidden !important
+    }
+}
+@media only screen and (max-width:320px) {
+    .class-side{
+        @apply hidden !important 
+    }
+    .class-side-cont{
+        @apply p-[10px] !important
+    }
+    .class-side-heading{
+        @apply text-[10px] !important
+    }
+    .class-side-ul{
+        @apply w-full  !important
+    }
+    .class-side-li{
+        @apply m-auto my-2 !important
+    }
+    .class-side-p{
+        @apply hidden !important
+    }
+}
